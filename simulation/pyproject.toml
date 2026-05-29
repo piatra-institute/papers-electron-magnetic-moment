@@ -1,0 +1,9 @@
+[project]
+name = "stratigraphy-electron-moment-sim"
+version = "0.1.0"
+description = "QED series reconstruction and alpha-tension analysis for the 1.00115965218 paper"
+requires-python = ">=3.10"
+dependencies = [
+    "numpy>=1.26",
+    "matplotlib>=3.8",
+]

@@ -1,0 +1,14 @@
+slug: stratigraphy-electron-moment
+web_slug: stratigraphy-electron-moment
+title: "1.00115965218: A Stratigraphy of the Electron Magnetic Moment"
+header: "1.00115965218"
+created: "2026-05"        # inception month (drives YYYY/MM archive path)
+date: "May 2026"            # publication month (shown on web)
+paper_dir: paper
+has_simulation: true
+claims_target: results.json      # results.json | claim-ledger | none
+repo: git@github.com:piatra-institute/papers-stratigraphy-electron-moment.git
+github: https://github.com/piatra-institute/papers-stratigraphy-electron-moment
+status: published              # draft | built | published
+abstract: |-
+  The number 1.00115965218 is the experimentally measured value of |g|/2 for the electron, where g is the gyromagnetic ratio. We read this number as historical sediment. Its leading 1 is Dirac's 1928 relativistic prediction; its next several digits are Schwinger's 1948 one-loop QED correction alpha/(2pi), which agrees with the modern measurement to one part in 660. The digits beyond Schwinger's contribution were determined order by order through the QED perturbation series, with the analytic two-loop result of Sommerfield and Petermann (1957), the three-loop analytic result of Laporta and Remiddi (1996), and the five-loop numerical calculation of Aoyama, Hayakawa, Kinoshita and Nio (2012) over 12,672 Feynman diagrams. The final digits of resolution were extracted by single-electron Penning-trap experiments, from Dehmelt's geonium spectroscopy through Hanneke, Fogwell and Gabrielse (2008) to Fan, Myers, Sukra and Gabrielse (2023), the current record at 0.13 parts per trillion. The residual uncertainty in the Standard Model comparison is now set by an unresolved 5.5-sigma tension between the 2018 Berkeley caesium-recoil value of the fine-structure constant alpha-inverse = 137.035999046(27) and the 2020 Paris rubidium-recoil value 137.035999206(11); inverting the Fan et al. (2023) measurement under the Standard Model gives alpha-inverse = 137.035999166(15), consistent with Paris at 2.2 sigma and with Berkeley at 3.9 sigma. The two recoil measurements predict a_e to differ by roughly 1.4e-12, an order of magnitude larger than the experimental uncertainty 1.3e-13. The simulation reconstructs the QED series at orders one through five, propagates the hadronic and weak contributions, performs the alpha-inversion of the measurement, and quantifies the Berkeley/Paris/Fan triangle of alpha determinations. The number 1.00115965218 now functions as a metrological instrument that audits the constants and theories that go into predicting it.
