@@ -23,20 +23,22 @@ C1 = 0.5
 C2 = -0.328478965579193378
 """Sommerfield (1957), Petermann (1957), analytic value given to 18 digits."""
 
-C3 = 1.181234016816
-"""Laporta and Remiddi (1996), analytic three-loop result; 11-digit numerical."""
+C3 = 1.181241456587
+"""Laporta and Remiddi (1996), analytic three-loop result; 12-digit numerical."""
 
 C4 = -1.912245764926
-"""Aoyama-Kinoshita-Nio (2019), updated four-loop result; central value."""
+"""Laporta (2017), analytic four-loop result. Known in closed form, so its
+truncation uncertainty is taken as zero."""
 
-C5 = 6.7349
+C5 = 6.737
 """Aoyama, Hayakawa, Kinoshita and Nio (2012), revised in Aoyama-Kinoshita-Nio
-(2019). The fifth-order coefficient required evaluating 12,672 Feynman
-diagrams."""
+(2019) to 6.737(159). The fifth-order coefficient required evaluating 12,672
+Feynman diagrams and is the only universal coefficient still known purely
+numerically, so its uncertainty sets the QED truncation error."""
 
 
-SIGMA_C4 = 0.00084
-SIGMA_C5 = 0.0099
+SIGMA_C4 = 0.0
+SIGMA_C5 = 0.159
 
 
 N_DIAGRAMS = {
@@ -52,7 +54,7 @@ LABELS = {
     1: "Schwinger (1948)",
     2: "Sommerfield (1957), Petermann (1957)",
     3: "Laporta and Remiddi (1996)",
-    4: "Kinoshita group, Aoyama-Kinoshita-Nio (2019)",
+    4: "Laporta (2017)",
     5: "Aoyama, Hayakawa, Kinoshita and Nio (2012)",
 }
 

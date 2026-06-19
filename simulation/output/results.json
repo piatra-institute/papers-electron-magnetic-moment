@@ -59,32 +59,32 @@
     "order_3": {
       "n": 3,
       "label": "Laporta and Remiddi (1996)",
-      "coefficient": 1.181234016816,
+      "coefficient": 1.181241456587,
       "sigma_coefficient": 0.0,
-      "contribution": 1.4804110394334339e-08,
+      "contribution": 1.480420363512289e-08,
       "sigma_contribution": 0.0,
       "n_diagrams": 72
     },
     "order_4": {
       "n": 4,
-      "label": "Kinoshita group, Aoyama-Kinoshita-Nio (2019)",
+      "label": "Laporta (2017)",
       "coefficient": -1.912245764926,
-      "sigma_coefficient": 0.00084,
+      "sigma_coefficient": 0.0,
       "contribution": -5.5667989183723835e-11,
-      "sigma_contribution": 2.4453504759696815e-14,
+      "sigma_contribution": 0.0,
       "n_diagrams": 891
     },
     "order_5": {
       "n": 5,
       "label": "Aoyama, Hayakawa, Kinoshita and Nio (2012)",
-      "coefficient": 6.7349,
-      "sigma_coefficient": 0.0099,
-      "contribution": 4.554161575358154e-13,
-      "sigma_contribution": 6.694412626177929e-16,
+      "coefficient": 6.737,
+      "sigma_coefficient": 0.159,
+      "contribution": 4.555581602278859e-13,
+      "sigma_contribution": 1.0751632399619098e-14,
       "n_diagrams": 12672
     },
-    "sum_through_order_5_universal": 0.0011596521760279654,
-    "sigma_truncation_at_order_5": 2.4462666384444073e-14,
+    "sum_through_order_5_universal": 0.0011596521761213481,
+    "sigma_truncation_at_order_5": 1.0751632399619098e-14,
     "alpha_used": 0.007297352564917189,
     "alpha_inv_used": 137.035999166
   },
@@ -101,7 +101,7 @@
     },
     "sum_had_weak": 1.7224e-12,
     "sigma_sum_had_weak": 1.2000104166214559e-14,
-    "mass_dependent_residual": 2.839744065300977e-12
+    "mass_dependent_residual": 2.7463612985039315e-12
   },
   "schwinger_dominance": {
     "schwinger_contribution": 0.0011614097321908919,
@@ -110,11 +110,11 @@
     "overshoot_absolute": 1.7575516007824286e-06,
     "overshoot_percent": 0.15155851299206521,
     "one_part_in": 659.8111714466047,
-    "higher_orders_total_universal": -1.7575561629264414e-06
+    "higher_orders_total_universal": -1.7575560695436502e-06
   },
   "alpha_limited": {
     "a_e_th_central_at_Fan_alpha": 0.0011596521805901094,
-    "sigma_a_e_qed_truncation": 2.4462666384444073e-14,
+    "sigma_a_e_qed_truncation": 1.0751632399619098e-14,
     "sigma_a_e_had_weak": 1.2000104166214559e-14,
     "sigma_a_e_from_alpha_Cs": 2.284845521899882e-13,
     "sigma_a_e_from_alpha_Rb": 9.308629893168015e-14,
@@ -123,8 +123,8 @@
     "a_e_pred_Fan": 0.0011596521805901094,
     "Delta_a_e_Cs_vs_Rb": 1.3519476337042757e-12,
     "Cs_vs_Rb_a_e_sigma": 5.479706888669945,
-    "ratio_alpha_Rb_to_truncation": 3.805239276405052,
-    "ratio_alpha_Cs_to_truncation": 9.340132780263177,
+    "ratio_alpha_Rb_to_truncation": 8.657875890081394,
+    "ratio_alpha_Cs_to_truncation": 21.251149936830316,
     "sigma_a_e_exp_Fan_2023": 1.3e-13
   },
   "inversion_check": {
